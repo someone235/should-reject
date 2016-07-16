@@ -1,0 +1,31 @@
+{
+  "name": "should-reject",
+  "version": "1.0.0",
+  "description": "Return a promise which is resolved when the original promise is rejected, and rejected when the original promise is resolved",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/someone235/should-reject.git"
+  },
+  "keywords": [
+    "promise",
+    "reject",
+    "should"
+  ],
+  "author": "Ori Newman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/someone235/should-reject/issues"
+  },
+  "homepage": "https://github.com/someone235/should-reject#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "no-op": "^1.0.3"
+  },
+  "devDependencies": {
+    "tap": "^6.2.0"
+  }
+}
