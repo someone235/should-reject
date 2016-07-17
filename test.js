@@ -4,7 +4,7 @@
 var test = require('tap').test;
 var Promise = require('bluebird');
 var shouldReject = require('./index.js');
-var noop = require('no-op');
+var noop = require('lodash.noop');
 
 test('Check should-reject', function (t) {
     return t.test('it should be resolved', function () {

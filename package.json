@@ -23,7 +23,7 @@
   "homepage": "https://github.com/someone235/should-reject#readme",
   "dependencies": {
     "bluebird": "^3.4.1",
-    "no-op": "^1.0.3"
+    "lodash.noop": "^3.0.1"
   },
   "devDependencies": {
     "tap": "^6.2.0"
