@@ -6,5 +6,7 @@ var noop = require('lodash.noop');
 module.exports = function shouldReject(promise) {
     return promise.then(function () {
         return Promise.reject();
-    },noop);
+    },function (e) {
+        return e;
+    });
 };

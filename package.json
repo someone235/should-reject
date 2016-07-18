@@ -1,6 +1,6 @@
 {
   "name": "should-reject",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Return a promise which is resolved when the original promise is rejected, and rejected when the original promise is resolved",
   "main": "index.js",
   "scripts": {
@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/someone235/should-reject#readme",
   "dependencies": {
-    "bluebird": "^3.4.1",
-    "lodash.noop": "^3.0.1"
+    "bluebird": "^3.4.1"
   },
   "devDependencies": {
+    "lodash.noop": "^3.0.1",
     "tap": "^6.2.0"
   }
 }
