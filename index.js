@@ -4,7 +4,7 @@
 var Promise = require('bluebird');
 module.exports = function shouldReject(promise) {
     return promise.then(function () {
-        return Promise.reject();
+        return Promise.reject(new Error('Promise resolved'));
     },function (e) {
         return e;
     });
